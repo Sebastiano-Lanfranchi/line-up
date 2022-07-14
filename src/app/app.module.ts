@@ -2,13 +2,19 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { NgxUsefulSwiperModule } from 'ngx-useful-swiper';
+import { MapChoserComponent } from './components/map-choser/map-choser.component';
+import { AgentChoserComponent } from './components/agent-choser/agent-choser.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MapChoserComponent,
+    AgentChoserComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgxUsefulSwiperModule
   ],
   providers: [],
   bootstrap: [AppComponent]

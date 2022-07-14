@@ -11,7 +11,11 @@ export class AppComponent {
   title = 'line-up';
 
   config: SwiperOptions = {
-    pagination: { el: '.swiper-pagination', clickable: true },
+    pagination: { 
+      el: '.swiper-pagination', 
+      clickable: true,
+       },
+       slidesPerView: 3,
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev'
